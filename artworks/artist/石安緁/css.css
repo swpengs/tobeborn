@@ -1,0 +1,487 @@
+
+
+/*外層高度100%，邊框0*/
+html, body{
+    height: 100%;
+    margin:0;
+    padding:0; 
+}
+
+.wrap{
+    min-height: 100%
+    position:relative;
+    margin-bottom: -20px;
+}
+
+
+
+/*logo*/
+#site {
+    position: relative;
+    float: left;
+    margin-top: 1.2em;
+    margin-left: 2em;
+}
+
+#site h1 {
+    margin: 0;
+    bottom: 1.5em;
+}
+
+#site img {
+    vertical-align: bottom;
+    position: relative;
+    height: 1.5em; 
+
+
+}
+
+
+/*選單*/
+
+nav { /*頁面位置，字大小字型*/
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 70px; 
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'times new roman', serif;
+    padding-top: 15px;
+    z-index: 1em;
+
+}
+ul.drop ul{
+    display: none;
+}
+ul.drop li:hover ul{
+display: block;
+}
+
+ul.drop li:hover ul a{
+display: block;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav li a { /*按鈕間寬度 底下橫線*/
+    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-bottom: solid 2px transparent;
+    color: #2f3031;
+
+}
+
+nav li a:hover {
+    border-bottom-color: #2f3031;
+
+}
+
+header {
+    overflow: hidden;
+
+}
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  background: #b6bdc4;
+  height: 80px;
+  width: 100%;
+}
+
+.all{
+    height: 100%;
+    display: flex;
+
+}
+
+.menu{
+    flex: 0 1 350px;
+    display: flex;
+
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'times new roman', serif;
+    color: #2f3031;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    overflow: auto;
+    flex: 1 1 500px;
+}
+
+
+
+.all{
+    display: flex;
+    height: 100%;
+}
+
+.menu{
+  flex: 5em 10em;
+  background-color: #b6bdc4;
+  color: #3F5D45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12em 0;
+}
+
+.list{
+    font-size: 0.9em;
+    font-family: "微軟正黑體",sans-serif;
+    text-decoration: none;
+    color: #2f3031;
+    display: inline-block;
+    margin-left: 5.1em;
+
+}
+.list ul{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 2.4em;
+}
+.list ul li label{
+    display: inline-block;
+
+}
+.list ul li a{
+    color: #2f3031;
+    text-decoration: none;
+}
+.list ul li:hover a{
+    display: block;
+    color: #2f3031;
+}
+
+.slide{
+  display: inline-block;
+  margin-bottom: 2em;
+
+}
+.slide ul{
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+.slide ul li {
+  margin-bottom: 8em;
+  line-height: 8em;  
+
+}
+.slide ul li  label{
+  display: inline-block;
+  
+}
+
+.container{
+ box-sizing: border-box;
+
+ padding-top: 8em;
+  width: 550px;
+  margin:0 auto;
+  margin-left: 5em;
+}
+
+.container img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.words{
+  flex: 5em 10em;
+  background-color: #b6bdc4;
+  color: #3F5D45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10em 0;
+  line-height: 0.5em;
+}
+
+.artwords{
+    font-family:"fangsong",sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #2f3031;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 1.2em;
+    max-width: 400px;
+}
+
+.artwords ul{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 0.8em;
+
+}
+.artwords ul li label{
+    display: inline-block;
+    list-style-type: none;
+
+}
+.artwords ul li h2{
+    font-weight: bold;
+    text-decoration: none;
+    font-size:1.8em;
+    list-style-type: none;
+
+}
+
+.artwords ul li h4{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.artwords ul li p{
+    color: #2f3031;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    line-height: 1.6em;
+}
+
+.artcontent ul li a{
+    width: 20px;
+}
+
+.artcontent ul li:hover a{
+  display: block;
+}
+
+footer p{
+    float: left;
+    position: relative;
+    margin-top: 3.2em;
+    margin-left:7em;
+    font-size: 0.3em;
+    right: 2px;
+    color: #ffffff;
+}
+
+#iconmenu{
+    float: right;
+}
+
+#iconmenu ul{
+    margin:0;
+    padding: 0;
+    position: relative;
+    bottom: 15px;
+
+}
+#iconmenu li{
+    display: inline;
+    list-style-type: none;
+        margin-right:2em;
+
+}
+
+#iconmenu img{
+    margin-top: 1.5em;
+    border:none;
+    width: 25px;
+
+}
+
+#iconmenu li a { /*icon間距*/
+    float: left;
+    margin-left: 15px;
+}
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  background: #2f3031;
+  height: 45px;
+  width: 100%;
+}
+
+@media screen and (max-device-width: 1200px) {
+    /*footer {
+    background-color: #2f3031;
+    padding: 0.3em; 
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+    }*/
+
+    footer {
+  position: fixed;
+  bottom: 0;
+  background: #2f3031;
+      padding: 0.3em; 
+  height: 45px;
+  width: 100%;
+      overflow: hidden;
+}
+
+    .desk{
+    display: none !important;
+}
+
+
+}
+
+@media screen and (min-device-width: 1201px){
+.mobile{
+    display: none; !important;
+}
+} 
+
+@media screen and (max-device-width: 1120px) {
+.list{
+      margin-left: 1.3em;
+}
+.container{
+  width: 450px;
+  margin-left: 1em;
+}
+.artwords{
+      margin-left:1em;
+    margin-right: 0.8em;
+}
+}
+
+@media screen and (min-device-width: 821px){
+.wordmobile{
+    display: none; !important;
+}
+}
+
+@media screen and (max-device-width: 820px) {
+.menu{
+  display: none;!important;
+}
+.worddesk{
+display: none;!important;
+}
+
+.wordmobile{
+display: inline-block;
+margin-bottom: -10em;
+margin-top: -9.5em;
+margin-left: -1.5em;
+
+}
+
+.slide{
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 2em;
+
+}
+.slide ul{
+  display: inline-block;
+  list-style-type: none;
+
+}
+
+.slide ul li {
+  margin-bottom: 8em;
+  line-height: 4em;  
+
+}
+.slide ul li  label{
+  display: inline-block;
+  
+}
+
+.container{
+ box-sizing: border-box;
+  width: 550px;
+  margin:0 auto;
+  margin-left: 5em;
+  margin-right: 9em;
+}
+
+.container img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-device-width: 420px) {
+
+.column {
+float: none;
+width:auto;
+}
+
+.drop li{
+  display: flex;
+  text-align: center;
+  margin-right: 5.4em;
+  font-size: 1.2em;
+
+}
+
+
+nav{
+  display: flex;
+    float: center;
+    text-align: center;
+    right: 3em; 
+}
+
+#site {
+display:none;
+}
+
+.content{
+    padding-top: 4em;
+}
+
+.container{
+ box-sizing: border-box;
+
+  margin:0 auto;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.container img{
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+}
